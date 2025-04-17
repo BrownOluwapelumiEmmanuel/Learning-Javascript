@@ -1,4 +1,4 @@
-let number = prompt("7")
+let number = parseInt(prompt("Enter a number:", "7"))
 if (number % 2 === 0) {
   alert("The  number is even");
 } else {
